@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'app/modules/notes/notepad_view.dart';
 import 'app/services/prefs.dart';
+import 'opening.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const NotepadView(),
+      home: const opening(),
     );
   }
 }
